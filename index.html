@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<link href="dtn_files/main.css" rel="stylesheet" type="text/css" media="all">
 	<link href="dtn_files/themestyle.css" rel="stylesheet" type="text/css" media="all">
-    <link href="dtnt_files/themestylemobil.css" rel="stylesheet" type="text/css" media="all">  
+      <script src="dtn_files/main.js"></script>
 	<!-- this sets the viewpost size for mobile devices. without it the layout will be shrunken -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -18,13 +18,17 @@
 	<br>
 	<br>
 
-<div id="linkliste">
-<a class="toplink" href="#about">About</a>
-<a class="toplink" href="#motivation">Motivation</a>
-<a class="toplink" href="#clubs">Clubs</a>
-<a class="toplink" href="#resources">Resources</a>
-<a class="toplink" href="#partners">Partners</a>
-<a class="toplink" href="#connect">Connect</a>
+<div class="mobile-menu-container">
+  <button class="menu-toggle" aria-label="Open Menu">☰</button>
+
+  <nav id="drawer-menu" class="drawer">
+    <a class="toplink" href="#about">About</a>
+    <a class="toplink" href="#motivation">Motivation</a>
+    <a class="toplink" href="#clubs">Clubs</a>
+    <a class="toplink" href="#resources">Resources</a>
+    <a class="toplink" href="#partners">Partners</a>
+    <a class="toplink" href="#connect">Connect</a>
+  </nav>
 </div>
 
 <div id="main" role="main">
